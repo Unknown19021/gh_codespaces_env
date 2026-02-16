@@ -1,0 +1,17 @@
+{
+  "name": "Python default dev environment",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.accessibilitySupport": "off",
+        "workbench.colorTheme": "Default Dark Modern",
+        "explorer.compactFolders": false
+      },
+      "extensions": [
+        "ms-python.python",
+        "github.copilot-chat",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
