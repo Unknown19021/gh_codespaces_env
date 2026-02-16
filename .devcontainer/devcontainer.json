@@ -1,5 +1,7 @@
 {
   "name": "Python default dev environment",
+  "image": "mcr.microsoft.com/devcontainers/python:dev-3.13-trixie",
+  "features": { "ghcr.io/devcontainers/features/python:1": {"installJupyterlab": "true"}},
   "customizations": {
     "vscode": {
       "settings": {
@@ -15,3 +17,4 @@
     }
   }
 }
+
